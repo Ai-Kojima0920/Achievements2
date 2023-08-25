@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>お問い合わせ</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/responsive.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <!-- ファビコン -->
+
+    <!-- Googlefont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500&display=swap" rel="stylesheet">
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script defer src="./js/script.js"></script>
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header class="header">
+        <div class="inner header__inner">
+            <div class="header__wrapper">
+                <h1 class="header__logo">
+                    <a href="">
+                        <img src="./img/logo_white.png" alt="Kon">
+                    </a>
+                </h1>
+                <h1 class="header-logo__open">
+                    <a href="">
+                        <img src="./img/header-konlogo2.png" alt="Kon">
+                    </a>
+                </h1>
+                <button class="header__hamburger hamburger js-hamburger contact__hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <nav class="header__nav header-nav js-drawer">
+                <ul class="header-nav__items ">
+                    <li class="header-nav__item hd__TOP ">
+                        <a href="./index.html">TOP</a>
+                    </li>
+                    <li class="header-nav__item hd__menu">
+                        <a href="./menu.html">メニュー</a>
+                    </li>
+                    <li class="header-nav__item hd__contact">
+                        <a href="./contact.html">お問い合わせ</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- mv　-->
+<div class="contact__mv">
+    <h2 class="contact-mv__title">お問い合わせ</h2>
+</div>
+<div class="slider contact__slider">
+                <div class="contact__slider__img
+                ">
+                    <img src="./img/osinagaki__img1.jpg" alt="料理１" />
+                </div>
+                <div class="contact__slider__img
+                ">
+                    <img src="./img/osinagaki__img2.jpg" alt="料理２" />
+                </div>
+                <div class="contact__slider__img
+                ">
+                    <img src="./img/osinagaki__img3.jpg" alt="料理３" />
+                </div>
+                <div class="contact__slider__img
+                ">
+                    <img src="./img/osinagaki__img4.jpg" alt="料理４" />
+                </div>
+                <div class="contact__slider__img
+                ">
+                    <img src="./img/osinagaki__img5.jpg" alt="料理５" />
+                </div>
+                <div class="contact__slider__img
+                ">
+                    <img src="./img/osinagaki__img6.jpg" alt="料理６" />
+                </div>
+                <div class="contact__slider__img
+                ">
+                    <img src="./img/osinagaki__img7.jpg" alt="料理７" />
+                </div>
+            </div>
+            <!-- contactセクション -->
+    <section class="contact">
+        <div class="contact__inner inner">
+            <h2 class="contact__title">
+                <span>C</span>ontact
+            </h2>
+            <form action="" class="contact__form form">
+                <div class="form__item">
+                    <div class="form__label-area">
+                        <label for="name" class="form__label">
+                            お名前
+                        </label>
+                        <span class="form__require">※</span>
+                    </div>
+                    <div class="form__input-area">
+                        <input type="text" id="name" name="name" >
+                    </div>
+                </div>
+                <div class="form__item">
+                    <div class="form__label-area">
+                        <label for="tel" class="form-label">お電話番号</label>
+                        <span class="form__require">※</span>
+                    </div>
+                    <div class="form__input-area">
+                        <input type="tel" id="tel" name="tel" placeholder="" >
+                    </div>
+                </div>
+                <div class="form__item">
+                    <div class="form__label-area">
+                        <label for="email" class="form-label">メールアドレス</label>
+                    </div>
+                    <div class="form__input-area">
+                        <input type="email" id="email" name="email" placeholder="" >
+                    </div>
+                </div>
+                <div class="form__item radio-form__item">
+                    <div class="form__label-area">
+                        <label for="" class="form-label">お問い合わせ項目</label>
+                        <span class="form__require">※</span>
+                    </div>
+                    <div class="radio-input__area">
+                        <input type="radio" name="radio" value="ご予約" style="transform:scale(1.5);">ご予約
+                        <input type="radio" name="radio" value="その他" style="transform:scale(1.5);"> その他
+                    </div>
+                </div>
+                <div class="form__item form__item--flex-start">
+                    <div class="form__label-area">
+                        <label for="message" class="form-label">お問い合わせ内容</label>
+                    </div>
+                    <div class="form__input-area">
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder=""></textarea>
+                    </div>
+                </div>
+            </form>
+            <div class="contact__text">
+                <p> 
+                    ※前日のご予約の方はお電話でお願いします。<br>
+                    ※ご予約希望の方は日にちと人数のご記入をお願いします。
+                </p>
+            </div>
+            <div class="form__btn">
+                <button class="btn" type="submit">送信</button>
+            </div>
+        </div>
+    </section>
+    <!-- フッター -->
+    <footer class="footer top__footer">
+        <div class="inner footer__inner">
+            <div class="footer__logo">
+                <a href="">
+                    <img src="./img/footer__logo.png" alt="Kon">
+                </a>
+            </div>
+            <div class="footer-information__container">
+                <table class="footer-information__wrapper">
+                    <tr>
+                        <th>店名</th>
+                        <td>
+                            Kon
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>住所</th>
+                        <td>
+                            熊本県熊本市城下町1-1
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>電話番号</th>
+                        <td>096-111-1111</td>
+                    </tr>
+                    <tr>
+                        <th>アクセス</th>
+                        <td>熊本駅より市電で城下町へ城下町 <br>
+                            降車後徒歩3分</td>
+                    </tr>
+                    <tr>
+                        <th>営業時間 </th>
+                        <td>18:00〜23:00</td>
+                    </tr>
+                    <tr>
+                        <th>定休日</th>
+                        <td>火曜日</td>
+                    </tr>
+                </table>
+                <div class="footer__map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6706.9493387767925!2d130.69682127770994!3d32.806185899999974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3540f40e023aca59%3A0x5e8b66c876cde430!2z54aK5pys5Z-O!5e0!3m2!1sja!2sjp!4v1685448300460!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
